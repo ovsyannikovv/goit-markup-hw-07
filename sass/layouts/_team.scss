@@ -1,15 +1,16 @@
-.team-list {
+.cards-list {
     display: flex;
     column-gap: 30px;
 }
 
-.team-item {
+.cards__item {
     background: #ffffff;
     width: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     border-radius: 0px 0px 4px 4px;
 }
+
 
 .team {
     background-color: #f5f4fa;
@@ -48,7 +49,7 @@
     margin-bottom: 16px;
 }
 
-.team-soc-link {
+.socialnetwork__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -66,13 +67,13 @@
     }
 }
 
-.team-soc {
+.socialnetwork {
     display: flex;
     justify-content: center;
     column-gap: 10px;
 }
 
-.team-soc-icon {
+.socialnetwork__icon {
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);

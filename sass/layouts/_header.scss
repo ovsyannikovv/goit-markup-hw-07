@@ -23,28 +23,28 @@
     align-items: center;
 }
 
-.header-nav {
+.navigation {
     display: flex;
     align-items: center;
 }
 
-.header-item:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-list-contact {
+.contacts {
     display: flex;
     margin-left: auto;
 }
 
 
 
-.header-list {
+.navigation__list {
     display: flex;
     margin-left: 93px;
 }
 
-.header-link {
+.navigation__link {
     display: block;
     position: relative;
     font-weight: 500;
@@ -85,7 +85,7 @@
 
 
 
-.header-contact {
+.contacts__way {
     display: flex;
     align-items: center;
     width: auto;
@@ -108,7 +108,7 @@
 
 
 
-.contact-icon {
+.contacts__icon {
     margin-right: 10px;
     fill: currentColor;
 }
