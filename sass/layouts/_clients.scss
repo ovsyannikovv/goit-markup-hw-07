@@ -1,4 +1,4 @@
-.clients-title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -8,7 +8,7 @@
     margin-bottom: 50px;
 }
 
-.gallary__link {
+.clients__link {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -27,13 +27,13 @@
     }
 }
 
-.gallery-list {
+.clients {
     display: flex;
     column-gap: 30px;
 }
 
 
-.clients-soc-icom {
+.clients__icom {
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);

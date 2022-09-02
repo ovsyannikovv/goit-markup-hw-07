@@ -18,7 +18,7 @@
     color: #000000;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
@@ -61,13 +61,14 @@
     }
 }
 
-.header-link.current {
+
+.navigation__link__current {
     color: var(--accent-color);
 }
 
 
 
-.header-link::after {
+.navigation__link__current::after {
     position: absolute;
     display: block;
     content: '';
@@ -78,14 +79,16 @@
     bottom: 1px;
     border-radius: 2px;
     opacity: 0;
-    &.current::after {
-    opacity: 1;
-     }
+   
+}
+
+.navigation__link__current::after {
+opacity: 1;
 }
 
 
 
-.contacts__way {
+.contacts__link {
     display: flex;
     align-items: center;
     width: auto;
